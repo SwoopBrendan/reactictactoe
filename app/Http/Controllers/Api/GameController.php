@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Services\GameService;
 use Illuminate\Http\Request;
@@ -8,13 +8,22 @@ use Illuminate\Http\Request;
 class GameController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * GameController constructor
+     * @param GameService $service
+     */
+    public function __construct(GameService $service)
+    {
+        $this->service = $service;
+    }
+
+    /**
+     * Return json response containing all games the user has played
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        //
+        dd('here');
     }
 
     /**
