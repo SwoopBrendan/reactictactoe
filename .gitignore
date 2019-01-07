@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /node_modules
 /public/hot
 /public/storage
@@ -10,7 +9,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-=======
 vendor/
 node_modules/
 npm-debug.log
@@ -31,4 +29,3 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
->>>>>>> b15d6c3c82d767af3a1ae8212edc1e379b26e5bb
